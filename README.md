@@ -110,8 +110,6 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 
 ### Community Demos
 
-- [Settled Estate](https://settledestate.com/webmcp/) - Public probate and estate-guidance search, dated comparisons of five reviewed will makers, and state executor-compensation calculators. Browser WebMCP tools update the same visible controls used manually, with source dates, price conditions and explicit unknowns. Financial inputs stay out of shared URLs.
-- [scvd.store](https://scvd.store) - Evidence observatory for agentic commerce: a live x402 general store whose free conformance-check and endpoint-preflight instruments (`read_store_guide`, `preflight_endpoint`, `check_conformance`, `verify_artifact`) are also registered read-only via `navigator.modelContext`, alongside the store's own funded x402 payment flow.
 - [Air Bird Booking](https://github.com/hugozanini/air-bird-booking-web-mcp) - Agent-native flight + accommodation booking. 10x fewer tokens than DOM scraping.
 - [isainative.dev](https://isainative.dev/) - Scores a public GitHub repository for AI-coding readiness, auditing the codebase rather than the live site. Ships a declarative scan form alongside imperative tool registration.
 - [Shoe Store](https://andreinwald.github.io/webmcp-demo) - React e-commerce storefront with full WebMCP integration.
@@ -122,13 +120,15 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 - [QR Code Crafter](https://qrcodecrafter.com/qr-code-readability-lab) - Agent-native QR generation that verifies its own output: every SVG, PNG, JPG, or WebP export is decoded back and hash-checked against the requested payload, and a mismatch returns a failure receipt instead of the file.
 - [Agent Ready](https://agent-ready.dev) - Scores any URL 0-100 for agent readability and returns the full structured result to the agent via `scan_site` / `get_scan`, plus an `ask` tool for natural-language search over Agent Ready's own scoring methodology, check registry, and validated specs.
 - [Simple Tools](https://simpletoolstack.com) - A toolbox for people and agents (PDF, image, text, and more), exposed over WebMCP via `document.modelContext`. Home registers `discover_tools`; each tool page registers its execute tool. [Developers](https://simpletoolstack.com/developers).
+- [scvd.store](https://scvd.store) - Evidence observatory for agentic commerce: a live x402 general store whose free conformance-check and endpoint-preflight instruments (`read_store_guide`, `preflight_endpoint`, `check_conformance`, `verify_artifact`) are also registered read-only via `navigator.modelContext`, alongside the store's own funded x402 payment flow.
+- [Settled Estate](https://settledestate.com/webmcp/) - Public probate and estate-guidance search, dated comparisons of five reviewed will makers, and state executor-compensation calculators. Browser WebMCP tools update the same visible controls used manually, with source dates, price conditions and explicit unknowns. Financial inputs stay out of shared URLs.
 
 ---
 
 ## 🔧 Developer Tools & Utilities
 
-- [DeepDeck](https://github.com/jo32/DeepDeck) - MIT-licensed macOS desktop client based on DeepSeek Harness that discovers and calls website-provided WebMCP tools. Its Builder lets an agent explore a site, generate and verify tools, and save versioned source per site for reuse in the DeepDeck browser.
 - [GoogleChromeLabs/webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) - Official toolkit: Model Context Tool Inspector extension, CLI utilities, and demo suite.
+- [DeepDeck](https://github.com/jo32/DeepDeck) - MIT-licensed macOS desktop client based on DeepSeek Harness that discovers and calls website-provided WebMCP tools. Its Builder lets an agent explore a site, generate and verify tools, and save versioned source per site for reuse in the DeepDeck browser.
 - [WebMCP Inspector](https://webmcpinspector.com/) - Online inspector for testing and debugging WebMCP tool registrations.
 - [WordLift AI Readiness Audit](https://audit.wordlift.io/) - Scan your site for WebMCP / agent readiness.
 - [WebMCP Tool Validator](https://admintoolkit.io/webmcp-tool-validator/) - Validates WebMCP tool registrations and schemas in the browser. Part of a wider suite of read-only diagnostic tools on admintoolkit.io.
