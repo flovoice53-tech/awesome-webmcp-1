@@ -111,7 +111,7 @@ From the [webmcp-tools](https://github.com/GoogleChromeLabs/webmcp-tools) repo:
 ### Community Demos
 
 - [Settled Estate](https://settledestate.com/webmcp/) - Public probate and estate-guidance search, dated comparisons of five reviewed will makers, and state executor-compensation calculators. Browser WebMCP tools update the same visible controls used manually, with source dates, price conditions and explicit unknowns. Financial inputs stay out of shared URLs.
-
+- [scvd.store](https://scvd.store) - Evidence observatory for agentic commerce: a live x402 general store whose free conformance-check and endpoint-preflight instruments (`read_store_guide`, `preflight_endpoint`, `check_conformance`, `verify_artifact`) are also registered read-only via `navigator.modelContext`, alongside the store's own funded x402 payment flow.
 - [Air Bird Booking](https://github.com/hugozanini/air-bird-booking-web-mcp) - Agent-native flight + accommodation booking. 10x fewer tokens than DOM scraping.
 - [isainative.dev](https://isainative.dev/) - Scores a public GitHub repository for AI-coding readiness, auditing the codebase rather than the live site. Ships a declarative scan form alongside imperative tool registration.
 - [Shoe Store](https://andreinwald.github.io/webmcp-demo) - React e-commerce storefront with full WebMCP integration.
